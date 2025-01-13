@@ -13,3 +13,20 @@
  *= require_tree .
  *= require_self
  */
+ body {
+  font-family: 'Arial', sans-serif;
+  padding-top: 20px;
+}
+
+h1 {
+  color: #04440b;
+  /* background-color: blueviolet; */
+}
+
+form {
+  max-width: 500px;
+}
+
+form input[type="text"] {
+  margin-bottom: 10px;
+}
